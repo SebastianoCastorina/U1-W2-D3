@@ -174,6 +174,7 @@ for (let i = 0;  i < starWarsCharacters.length; i++){
   }
   
 }
+console.log(eyeColor)
 
 
 /* ESERCIZIO 6
