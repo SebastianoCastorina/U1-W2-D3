@@ -186,7 +186,7 @@ while (i < starWarsCharacters.length) {
   crewMass += Number(starWarsCharacters[i].mass )
   i++
 }
-console.log("crewmass totatle", crewMass)
+console.log("crewmass totale", crewMass)
 /* ESERCIZIO 7
   Crea uno switch statement per rivelare la tipologia di carico, utilizzando la massa totale, di un'impotetica astronave contenente i personaggi dell'array "starWarsCharacters"
   (sei in difficoltà? cerca su un motore di ricerca switch case e conditionals)
@@ -214,6 +214,7 @@ switch(crewMass){
   
 
 }
+
 
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
