@@ -200,16 +200,16 @@ console.log("crewmass totale", crewMass)
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 */
 
-switch(crewMass){
-  case (crewMass < 500) : console.log("Ship is under loaded");
+switch(true){
+  case crewMass < 500 : console.log("Ship is under loaded");
   break;
-  case (crewMass === 500) : console.log("Ship is half loaded");
+  case crewMass === 500 : console.log("Ship is half loaded");
   break;
-  case (crewMass > 700) : console.log("Warning: Load is over 700");
+  case crewMass > 700 && crewMass <= 900:  console.log("Warning: Load is over 700")
   break;
-  case (crewMass > 900) : console.log("Critical Load: Over 900");
+  case crewMass > 900 && crewMass <= 1000 : console.log("Critical Load: Over 900");
   break;
-  case (crewMass > 1000) : console.log("DANGER! OVERLOAD ALERT: escape from ship now!");
+  case crewMass > 1000 : console.log("DANGER! OVERLOAD ALERT: escape from ship now!");
 
   
 
